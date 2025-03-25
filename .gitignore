@@ -1,0 +1,11 @@
+# ignore all
+*
+
+# except haskell files
+!*.hs
+
+# don't ignore gitignore
+!.gitignore
+
+# whitelist the license
+!LICENSE

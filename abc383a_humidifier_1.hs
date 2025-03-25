@@ -1,8 +1,6 @@
 -- https://atcoder.jp/contests/abc383/tasks/abc383_a
 -- list of pairs
-import Data.Maybe
 import Control.Monad
-import Data.List
 
 main :: IO ()
 main = do

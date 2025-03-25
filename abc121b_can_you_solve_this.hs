@@ -3,7 +3,7 @@
 import Control.Monad
 
 main = do
-  [n,m,c] <- map read.words <$> getLine
-  bs <- map read.words <$> getLine :: IO [Int]
-  ass <- replicateM n $ map read.words <$> getLine :: IO [[Int]]
+  [n,m,c] <- map read . words <$> getLine :: IO [Int]
+  bs <- map read . words <$> getLine :: IO [Int]
+  ass <- replicateM n $ map read . words <$> getLine :: IO [[Int]]
   print ass

@@ -4,3 +4,4 @@ main :: IO ()
 main = do
   s <- words <$> getContents
   print s
+  mapM_ print s

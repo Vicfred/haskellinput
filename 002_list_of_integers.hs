@@ -6,3 +6,4 @@ main = do
   a <- map read . words <$> getLine :: IO [Int]
   print n
   print a
+  mapM_ print a

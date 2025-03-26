@@ -8,3 +8,4 @@ main = do
   s <- replicateM n getLine
   print n
   print s
+  mapM_ print s

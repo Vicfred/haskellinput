@@ -7,3 +7,4 @@ main = do
   bs <- map read . words <$> getLine :: IO [Int]
   ass <- replicateM n $ map read . words <$> getLine :: IO [[Int]]
   print ass
+  mapM_ print ass
